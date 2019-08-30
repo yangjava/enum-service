@@ -1,0 +1,10 @@
+#Spring-data-redis的配置信息
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 500
+    pool:
+      min-idle: 1
+      max-idle: 8
+      max-active: 8
